@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text=" Amanda Aparecida da Silva Alves - 28/08/2025"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="33sp" />
+
+    <Button
+        android:id="@+id/buttonClique"
+        android:layout_width="wrap_content"
+        android:layout_height="93dp"
+        android:text="Clique aqui"
+        android:textSize="24sp" />
+
+</LinearLayout>
+
